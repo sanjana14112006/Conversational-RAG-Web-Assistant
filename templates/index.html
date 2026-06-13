@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Portal & Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to Our Corporate Hub</h1>
+        <p>Explore our system. Our Virtual Assistant is active at the bottom-right corner to help you dynamically with anything on this portal.</p>
+    </div>
+
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="avatar">🤖</div>
+            <div>
+                <h4>Corporate Assistant</h4>
+                <small>Online | Memory Active</small>
+            </div>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="message bot-message">Hello! I am your personal virtual assistant. Ask me anything about our company's website content, categories, or services, and I'll help you instantly!</div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="userInput" placeholder="Type a natural sentence query..." autocomplete="off">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

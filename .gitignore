@@ -1,0 +1,11 @@
+# Ignore the hidden virtual environment folder
+.venv/
+__pycache__/
+*.pyc
+
+# SECURE ROADBLOCK: Never upload your private API keys!
+.env
+
+# Optional: Ignore the local databases if you want users to build their own brain
+chat_history.db
+chroma_db/
