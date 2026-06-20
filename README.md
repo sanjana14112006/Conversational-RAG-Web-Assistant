@@ -24,7 +24,7 @@ An advanced, private conversational customer support assistant built from scratc
 
 ## Step-by-Step Installation
 
-### 1. Clone the Repository:
+***1. Clone the Repository:***
 ```bash
 git clone [https://github.com/sanjana14112006/Conversational-RAG-Web-Assistant.git](https://github.com/sanjana14112006/Conversational-RAG-Web-Assistant.git)
 cd Conversational-RAG-Web-Assistant
