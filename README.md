@@ -29,27 +29,27 @@ An advanced, private conversational customer support assistant built from scratc
 git clone [https://github.com/sanjana14112006/Conversational-RAG-Web-Assistant.git](https://github.com/sanjana14112006/Conversational-RAG-Web-Assistant.git)
 cd Conversational-RAG-Web-Assistant
 
-### 2. Create and Activate a Virtual Environment:
+***2. Create and Activate a Virtual Environment:***
 ```bash
 py -3.11 -m venv .venv
 .\.venv\Scripts\activate.bat
 
-### 3. Configure Local Credentials:
+***3. Configure Local Credentials:***
 Create a new file named `.env` in the root directory of the project and paste your secret Gemini API access token inside it:
 ```text
 GOOGLE_API_KEY=your_actual_gemini_api_key_here
 
-### 4. Install Dependencies:
+***4. Install Dependencies:***
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 
-### 5. Compile the Local Vector Database:
+***5. Compile the Local Vector Database:***
 Run the ingestion pipeline to parse the target website, scrub the HTML noise, extract text chunks, and generate the mathematical indices locally:
 ```bash
 python ingest.py
 
-### 6. Execute the Application:
+***6. Execute the Application:***
 Launch the local Flask application server architecture:
 ```bash
 python app.py
